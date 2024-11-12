@@ -4,22 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8adf1f7-91e6-446e-a37c-ecc8ff31caa8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/FlowerClassification.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dataset/iris.data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dataset/iris.names" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/DecisionTree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/LogisticRegression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/RandomForest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/SVM.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVM.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebPage/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+    <list default="true" id="d8adf1f7-91e6-446e-a37c-ecc8ff31caa8" name="Changes" comment="FlowerClassifications">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "MohsinALi1a1"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/MohsinALi1a1/FlowerClassification",
+    "accountId": "0fc19df7-be3b-4f10-9988-fc3943e7f7a6"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -85,7 +83,20 @@
       <option name="presentableId" value="Default" />
       <updated>1716892238234</updated>
     </task>
+    <task id="LOCAL-00001" summary="FlowerClassifications">
+      <option name="closed" value="true" />
+      <created>1731429052611</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731429052611</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="FlowerClassifications" />
+    <option name="LAST_COMMIT_MESSAGE" value="FlowerClassifications" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
