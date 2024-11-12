@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flower Classifier</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+        .container {
+            max-width: 500px;
+            margin-top: 50px;
+            background:#CF9FFF;
+            color: BLACK;
+            padding-top:3%;
+            padding-bottom:3%;
+            padding-left:5%;
+            padding-right:5%;
+            border-radius:15px;
+            border-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"  style="border: 2px solid; border-color: black;">
+        <h2 class="text-center text-green">Iris Flower Classification</h2>
+        {% if error %}
+        <div class="alert alert-danger" role="alert">
+            {{ error }}
+        </div>
+        {% endif %}
+        <form method="POST" action="/Result" enctype="multipart/form-data">
+            <div class="form-group">
+                <label>Sepal Length:</label>
+                <input type="number" name="feature1" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label>Sepal Width:</label>
+                <input type="number" name="feature2" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label>Petal Length:</label>
+                <input type="number" name="feature3" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label>Petal Width:</label>
+                <input type="number" name="feature4" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Result</button>
+        </form>
+        <hr>
+        {% if processed_data %}
+        <div class="alert alert-success" role="alert">
+            {{ processed_data }}
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
